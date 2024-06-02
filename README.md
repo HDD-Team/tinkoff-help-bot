@@ -17,6 +17,5 @@ PROXY_PASS = <Пароль сервера>
 - **Mistral**
 
 # Использование:
-Отправить POST запрос на адресс `curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://0.0.0.0:8000/assist -k` (при запуске у себя)
-Отправить POST запрос на адресс `curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://46.147.127.169:8000/assist -k` (Если на нашь сервер)
-
+Отправить POST запрос на адресс `curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://0.0.0.0:8000/assist -k` (при запуске у себя) <br />
+Отправить POST запрос на адресс `curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://46.147.127.169:8000/assist -k` (Если на нашь сервер) <br />
