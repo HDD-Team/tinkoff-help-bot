@@ -1,7 +1,9 @@
 # QnA-Bot Тинькофф
 # Установка:
 - Для установки зависимостей:
-`pip install fastapi pydantic typing langchain_community langchain beautifulsoup4 faiss-cpu sentence-transformers langchain_core lxml dotenv`
+```
+pip install fastapi pydantic typing langchain_community langchain beautifulsoup4 faiss-cpu sentence-transformers langchain_core lxml dotenv
+```
 
 - Для работы кода необходим `api.env`:
 ```
@@ -25,3 +27,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопр
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://46.147.127.169:8000/assist -k
 ```
+## На нашем сайте:
+https://github.com/HDD-Team/website-tinkoff
