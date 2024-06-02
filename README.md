@@ -18,6 +18,6 @@ PROXY_PASS = <Пароль сервера>
 
 # Использование:
 ## Отправить POST запрос (при запуске у себя)
-`curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://0.0.0.0:8000/assist -k`
+```curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://0.0.0.0:8000/assist -k```
 ## Отправить POST запрос (Если на наш сервер)
-`curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://46.147.127.169:8000/assist -k`
+```curl -X POST -H "Content-Type: application/json" -d '{"query": "<Ваш вопрос>"}' http://46.147.127.169:8000/assist -k```
